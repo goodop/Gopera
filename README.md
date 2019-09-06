@@ -27,25 +27,25 @@ How To RUN?
 -->> View more tutorial at 
 
 #via VPS
-sudo apt-get install git
-git clone 
-sudo apt-get python3-pip
-sude pip3 install rsa
-sudo pip3 install requests
-sudo pip3 install googletrans
-sudo pip3 install bs4
-sudo pip3 install requests 9 .sudo pip3 install rsa
-sudo pip3 install thrift
-sudo pip3 install bs4
-sudo pip3 install pytz
-sudo pip3 install humanfriendly
-sudo pip3 install gtts
-sudo pip3 install googletrans
-sudo pip3 install wikipedia
-sudo pip3 install youtube_dl
-sudo pip3 install ffmpy
-cd Gopera
-python3 sb.py
+1. sudo apt-get install git
+2. git clone 
+3. sudo apt-get python3-pip
+4. sude pip3 install rsa
+5. sudo pip3 install requests
+6. sudo pip3 install googletrans
+7. sudo pip3 install bs4
+8. sudo pip3 install requests 9 .sudo pip3 install rsa
+9. sudo pip3 install thrift
+10. sudo pip3 install bs4
+11. sudo pip3 install pytz
+12. sudo pip3 install humanfriendly
+13. sudo pip3 install gtts
+14. sudo pip3 install googletrans
+15. sudo pip3 install wikipedia
+16. sudo pip3 install youtube_dl
+17. sudo pip3 install ffmpy
+18. cd Gopera
+19. python3 sb.py
 
 #This script not made by me
 #for more please visit https://github.com/arifistifik/dpk

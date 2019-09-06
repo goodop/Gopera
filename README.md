@@ -1,9 +1,8 @@
 # Gopera
 How To RUN?
 #via ANDROID - Termux
-
-pkg install git
-pkg install akad
+1. pkg install git
+2. pkg install akad
 pkg install python
 pip3 install rsa
 pip3 install requests

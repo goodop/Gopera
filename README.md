@@ -24,11 +24,11 @@ How To RUN?
 20. apt update
 21. apt upgrade
 
--->> View more tutorial at 
+-->> View more tutorial at https://www.jurustupai.com/2019/09/cara-membuat-selfbot-di-line.html
 
 #via VPS
 1. sudo apt-get install git
-2. git clone 
+2. git clone https://github.com/goodop/Gopera
 3. sudo apt-get python3-pip
 4. sude pip3 install rsa
 5. sudo pip3 install requests
@@ -49,4 +49,4 @@ How To RUN?
 
 #This script not made by me
 
-#for more please visit https://github.com/
+#for more please visit https://github.com/arifistifik/dpk

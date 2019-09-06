@@ -49,4 +49,4 @@ How To RUN?
 
 #This script not made by me
 
-#for more please visit https://github.com/arifistifik/dpk
+#for more please visit https://github.com/

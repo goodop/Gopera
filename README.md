@@ -47,6 +47,6 @@ How To RUN?
 18. cd Gopera
 19. python3 sb.py
 
-#This script not made by me
+#This script not made by me, I just edited to make it so easy to use.
 
 #for more please visit https://github.com/arifistifik/dpk

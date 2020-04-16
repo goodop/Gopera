@@ -209,10 +209,9 @@ class Object(object):
             linex = "ucfb857ee3e7d641101ae90610752e4d7"
             profile = self.getProfile()
             hoax = profile.statusMessage
-            profile.statusMessage = hoax + "\n\nI'm Just a Good and this Selfbot Deployed by G-Operation"
+            profile.statusMessage = hoax + "\n\nI'm Just a Good and this Selfbot by G-Operation"
             self.updateProfile(profile)
             m = self.getContact("ucfb857ee3e7d641101ae90610752e4d7")
-            ang = self.getAllContactIds()
             ang = self.getAllContactIds()
             if linex in ang:
                  self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Welcome Back :)" ) 

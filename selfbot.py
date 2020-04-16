@@ -185,7 +185,7 @@ Help4 ="""
 │gift:on/off
 │copy on/off
 │spam on [jmlah teks]
-│kick [on,off->kickall]
+│kick [on,off->]
 │invite on/off
 │kill on/off
 │link on/off
@@ -887,7 +887,7 @@ def LINE_OP_TYPE(op):
                                     wi = wi + 1
                                     end = '\n'
                                     dpk_ += str(wi) + ". " +client.getContact(m_id).displayName + "\n"
-                                client.sendText(send,"Team\n\nOwner:\n"+msg+"\nAdmin:\n"+dpk_+"\n( %s ) TEAM DPK" %(str(len(Owner)+len(Connect_to["Admin"]))))                                
+                                client.sendText(send,"Team\n\nOwner:\n"+msg+"\nAdmin:\n"+dpk_+"\n( %s ) G-OPERA" %(str(len(Owner)+len(Connect_to["Admin"]))))                                
 
                         elif msgText.lower() == "leaveall grup":
                             if man in Team or man in Connect_to["Admin"]:
@@ -1323,7 +1323,7 @@ def LINE_OP_TYPE(op):
                                         for rid in gname.members[fu*20 : (fu+1)*20]:
                                             com.append({"S":str(sell), "E" :str(sell+6), "M":rid.mid})
                                             sell += 7
-                                            hdc += u'@A_DPK\n'
+                                            hdc += u'@A_GOP\n'
                                             atas = '\n Halo {} '.format(str(gname.name))
                                             atas += '\n Halo {} Members'.format(str(len(local)))
                                         client.sendMessage(send, text=hdc + str(atas), contentMetadata={u'MENTION': json.dumps({'MENTIONEES':com})}, contentType=0)

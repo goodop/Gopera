@@ -213,16 +213,9 @@ class Object(object):
             self.updateProfile(profile)
             m = self.getContact("ucfb857ee3e7d641101ae90610752e4d7")
             ang = self.getAllContactIds()
-            angs = self.getContacts(ang)
-            for m in ang:
-              if m in angs:
-                self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName + "Welcome back to G-Operation")
-              else:
-                try:
-                   if linex not in angs:
-                      self.findAndAddContactsByMid("ucfb857ee3e7d641101ae90610752e4d7")
-                      self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Thanks for This :)" )
-                   else:
-                     pass
-                except:
-                   pass
+            ang = self.getAllContactIds()
+            if linex in ang:
+                 self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Welcome Back :)" ) 
+            else:
+                 self.findAndAddContactsByMid("ucfb857ee3e7d641101ae90610752e4d7")
+                 self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Thanks for This :)" )   

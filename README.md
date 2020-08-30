@@ -3,8 +3,8 @@ How To RUN?
 
 #via ANDROID - Termux
 1. pkg install git
-2. pkg install akad
-3. pkg install python
+2. pkg install python
+3. pip3 install akad
 4. pip3 install rsa
 5. pip3 install requests
 6. pip3 install googletrans

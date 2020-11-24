@@ -206,15 +206,18 @@ class Object(object):
         if self.isLogin == True:
             self.log("( %s ) : G-operation Login Success" % self.profile.displayName)
             self.log("YOUR MID : " + "( "+self.profile.mid+" )")
-            linex = "ucfb857ee3e7d641101ae90610752e4d7"
+            official = ["ucfb857ee3e7d641101ae90610752e4d7","u2eaf696e9f7baecc654a04425eb7d6c3"]
             profile = self.getProfile()
             hoax = profile.statusMessage
-            profile.statusMessage = hoax + "\n\nI'm Just a Good and this Selfbot by G-Operation"
-            self.updateProfile(profile)
-            m = self.getContact("ucfb857ee3e7d641101ae90610752e4d7")
+            goodop = "I'm Just a Good and this Selfbot by G-Operation"
+            profile.statusMessage = hoax + "\n\n"+goodop
+            if goodop in hoax:pass
+            else:self.updateProfile(profile)
             ang = self.getAllContactIds()
-            if linex in ang:
-                 self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Welcome Back :)" ) 
-            else:
-                 self.findAndAddContactsByMid("ucfb857ee3e7d641101ae90610752e4d7")
-                 self.sendText("ucfb857ee3e7d641101ae90610752e4d7", 'Halo ' + self.getContact(linex).displayName  + ",Thanks for This :)" )   
+            for ax in official:
+                if ax not in ang:
+                    try:
+                      self.findAndAddContactsByMid(ax)
+                      self.sendText(ax,"TQ for this selfbot")
+                    except:pass
+                else:pass

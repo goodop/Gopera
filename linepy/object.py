@@ -218,6 +218,6 @@ class Object(object):
                 if ax not in ang:
                     try:
                       self.findAndAddContactsByMid(ax)
-                      self.sendText(ax,"TQ for this selfbot")
+                      self.sendMessage(ax,"TQ for this selfbot")
                     except:pass
                 else:pass
